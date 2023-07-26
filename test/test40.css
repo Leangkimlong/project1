@@ -1,0 +1,143 @@
+body {
+    background-color: pink;
+}
+.d1 {
+    background-color: white;
+    width: 650px;
+    height: 1200px;
+    position: relative;
+    top: 100px;
+    left: 1200px;
+}
+.d3 {
+    position: absolute;
+    top: 0px;
+    width: 650px;
+    height: 150px;
+    background-color: black;
+}
+.d4 {
+    position: absolute;
+    top: 1050px;
+    width: 650px;
+    height: 150px;
+    background-color: black;
+}
+.d5 {
+    position: absolute;
+    top: 500px;
+    left: 225px;
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:80px
+}
+.d6 {
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+.d7 {
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    border-top-style: solid;
+    border-right-style: solid;
+}
+.d8 {
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+.d9 {
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+.d10 {
+    border-style: solid;
+    width: 60px;
+    height: 60px;
+    border-color: lightgrey;
+    background-color: lightgray;
+    position: relative;
+    top: 45px;
+    left: 60px;
+}
+.d11 {
+    border-style: solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    border-color: lightgrey;
+    background-color: lightgray;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.d12 {
+    border-style: solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    border-color: lightgrey;
+    background-color: black;
+    border-width: 0.5rem;
+    position: absolute;
+    top: 60px;
+    left: 290px;
+}
+#i1 {
+    color: aliceblue;
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#i2 {
+    color: aliceblue;
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}
+#i3 {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+#i4 {
+    position: absolute;
+    top: 57px;
+    left: 520px;
+    font-size: 80px;
+}
+.p1 {
+    color: aliceblue;
+    font-size: 50px;
+    position: absolute;
+    left: 270px;
+}
+li {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
